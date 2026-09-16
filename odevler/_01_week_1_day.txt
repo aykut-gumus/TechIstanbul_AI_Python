@@ -1,2 +1,0 @@
-LLM Nedir?
-Large Language Model : Büyük Dil Modeli
