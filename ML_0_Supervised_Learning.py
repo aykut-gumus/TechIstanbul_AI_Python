@@ -32,6 +32,12 @@ Kullanılan algoritma:
     
 Kurulum:
     pip install numpy scikit-learn
+    python -c "import numpy; import sklearn; print('Kurulum başarılı')"
+    
+    python -m pip install -r requirements.txt
+    
+    -m → module
+    -c → command
 
 """
 
@@ -41,6 +47,8 @@ from sklearn.linear_model import LogisticRegression
 
 def main():
     # x(Features / Özellikler) -> MODEL -> y(Label / Etiketler)
+    # 1= Günlük çalışma saati
+    # 30= Derse katılım yüzdesi
     x = np.array([
         [1, 30],
         [2, 40],
