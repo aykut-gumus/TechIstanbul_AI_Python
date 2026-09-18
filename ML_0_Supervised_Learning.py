@@ -87,7 +87,6 @@ def main():
 
     print("\ny - Label(Etiketler)")
 
-
     # Model Oluşturma
 
     """
@@ -138,7 +137,17 @@ def main():
     print("Supervised Learning LABEL vardır")
     print("Unutmaaa: Model, geçmişteki doğru cevapları öğrenir ve")
     print("Bu örnekte label:0=Kaldı, 1=Geçti")
+    print("\n Bias: ", model.intercept_)
+
 
 if __name__ == "__main__":
     main()
 
+"""
+LogisticRegresion:
+z = 0.1422 * çalışma saati + 0.7122 * katılım yüzdesi - 45.1082
+P(Geçti) = 1/(1+e^(-z))
+
+P(Geçti) >= 50 -- Geçti -- z=0
+%99,9997
+"""
