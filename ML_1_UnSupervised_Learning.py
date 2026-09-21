@@ -9,6 +9,7 @@ Temel Yapı:
     x(Features/Özellikler) -> MODEL -> Gruplar / Desenler
 
 Bu öğrenmede LABELM Yoktuuuuurrrr
+
 Model:
 - Benzer kayıtları gruplandırabilir.
 - Verideki gizli desenleri bulabilir.
